@@ -1,0 +1,82 @@
+*{ box-sizing: border-box;
+  margin: 0px;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/9363.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position: center;
+  height: 100vh;
+}
+
+.parent{
+  backdrop-filter: blur(5px) grayscale(60%);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  box-shadow: -1px 0px 6px 3px #ffffff;
+  border-radius: 16px;
+}
+.logo{
+  color: black;
+  width: 30px;
+  margin: 8px;
+  height:30px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+.logo:hover{
+  scale: (1.2);
+}
+.user {
+  background:transparent;
+  width: 90%;
+  height: 40px;
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #ffffff;
+  color: black;
+  border-radius: 16px;
+  font-weight: bold;
+  position: relative;
+}
+.user:hover{ translate: 20px ;
+  transition: 1s;
+  background: #ffffff;
+}
+.user::placeholder{
+  color: black;
+  padding: 8px;
+}
+.but{
+  width: 40%;
+  background: transparent;
+  border: solid 1px ;
+  color: white;
+  border-radius: 24px;
+  margin: 8px;
+}
+.but:hover{
+  height: 30px;
+  background: deepskyblue;
+}
+.link{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.bi-person-circle{
+  position: relative;
+  right: 40px;
+}
+.bi-key-fill{
+  position: relative;
+  right: 40px;
+}
+
